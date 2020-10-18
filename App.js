@@ -63,7 +63,6 @@ export default class quiz extends React.Component{
   }
 
   render(){
-    console.log(this.state.checked, "is ");
     return(
       <View>
         <View style={styles.timer}>
